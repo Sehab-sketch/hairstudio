@@ -1,0 +1,76 @@
+*{
+    margin: 0; padding: 0; 
+}
+
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#009684),url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    
+}
+
+.banner-text{
+    text-align: center;
+    color: #ffffff;
+    padding: 120px;
+}
+
+.banner-text h1{
+    font-size: 130px;
+}
+
+.banner-text p{
+    font-size: 50px;
+    font-style: italic;
+}
+
+.banner-btn{
+    margin: 70px auto 0;
+      
+}
+
+.banner-btn a{
+    width: 120px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 2px;
+    color: #ffffff;
+    border: .5px solid white;
+    position: relative;
+    z-index: 1;
+    transition: .5s ;
+   
+}
+
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+     z-index: -1;
+    background: #ffffff;
+    transition: .5s;
+}
+
+.banner-btn a:hover span{
+    width: 100%;
+} 
+/* after hover text color */
+
+.banner-btn a:hover{
+    color: black;
+}
+
+ 
+
+  
